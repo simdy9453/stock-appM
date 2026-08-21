@@ -334,7 +334,7 @@ def call_gemini(prompt, images=None):
         contents = [prompt]
         if images:
             for img in images[:5]: contents.append(Image.open(img))
-        return client.models.generate_content(model="gemini-2.5-flash", contents=contents).text
+        return client.models.generate_content(model="gemini-3.6-flash", contents=contents).text
     except Exception as e:
         return f"💡 AI 運算異常 ({e})"
 
