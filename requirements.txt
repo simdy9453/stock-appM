@@ -1,0 +1,7 @@
+streamlit
+requests
+yfinance
+fugle-marketdata
+google-genai
+Pillow
+pandas
